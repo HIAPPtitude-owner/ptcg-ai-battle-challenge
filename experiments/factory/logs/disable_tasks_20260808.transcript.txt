@@ -1,0 +1,28 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260808125719
+Username: BRADDT\Brad
+RunAs User: BRADDT\Brad
+Configuration Name: 
+Machine: BRADDT (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -Command Start-Transcript -Path 'C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\experiments\factory\logs\disable_tasks_20260808.transcript.txt'; Disable-ScheduledTask -TaskName ptcg-factory-runner; Disable-ScheduledTask -TaskName ptcg-factory-scheduler; Stop-Transcript
+Process ID: 28556
+PSVersion: 5.1.19041.7417
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7417
+BuildVersion: 10.0.19041.7417
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\experiments\factory\logs\disable_tasks_20260808.transcript.txt
+
+TaskPath                                       TaskName                          State
+--------                                       --------                          -----
+\                                              ptcg-factory-runner               Disabled
+\                                              ptcg-factory-scheduler            Running
+**********************
+Windows PowerShell transcript end
+End time: 20260808125721
+**********************

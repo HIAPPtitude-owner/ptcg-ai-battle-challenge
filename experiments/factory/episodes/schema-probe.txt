@@ -1,0 +1,38 @@
+=== PTCG episode schema probe ===
+
+[1] datasets list -s pokemon-tcg-ai-battle-episodes (first lines):
+ref                                               title                                                                                size  lastUpdated                 downloadCount  voteCount  usabilityRating  
+------------------------------------------------  -----------------------------------------------------------------------------  ----------  --------------------------  -------------  ---------  ---------------  
+kaggle/pokemon-tcg-ai-battle-episodes-index       The Pokémon Company - PTCG AI Battle Challenge Simulation Episodes Index             1370  2026-07-21 00:08:32.860000          24809         30  0.4117647        
+kaggle/pokemon-tcg-ai-battle-episodes-2026-06-18  The Pokémon Company - PTCG AI Battle Challenge Simulation Episodes 2026-06-18   742498255  2026-06-19 00:05:24.883000         123206         22  0.625            
+kaggle/pokemon-tcg-ai-battle-episodes-2026-07-15  The Pokémon Company - PTCG AI Battle Challenge Simulation Episodes 2026-07-15   736635482  2026-07-16 00:02:20.217000          81743         26  0.625            
+
+[2] index manifest columns + sample row:
+  header: date,daily_dataset_slug,daily_dataset_url,episode_count,total_bytes,top_avg_score,median_avg_score
+  row[1]: 2026-06-16,pokemon-tcg-ai-battle-episodes-2026-06-16,https://www.kaggle.com/datasets/kaggle/pokemon-tcg-ai-battle-episodes-2026-06-16,1277,2854565943,1024.643707,627.771126
+  (35 day rows)
+
+[3] one day's file listing (datasets files -d <day> --csv):
+Next Page Token = CfDJ8HMxIwPZ_4ZImnEqAVaKkSH1KUSkfRv3t5nyIXFVnKWYZ3GZcATY3AFh-5xC0_EIQxAyw9gZNk_dUfN8LUZRhDz7QeV3ljuf-7muikBeI4GCMgNWEQtumkKK7cucLJj7ljccOAV0_w
+name,size,creationDate
+
+86977970.json,3396404,2026-07-21 00:08:32.707000
+
+[4] episode JSON structure:
+  top-level keys: configuration, description, id, info, module_version, name, rewards, schema_version, specification, statuses, steps, title, version
+  schema_version=1 name='cabt'
+  info.TeamNames: ['Team KASA.', 'junlee789']
+  info.Agents[].Name: ['Team KASA.', 'junlee789']
+  info.EpisodeId: 86977970
+  rewards=[1, -1]  statuses=['DONE', 'DONE']
+  decks @ steps[0][0].visualize[0].action -> lens=[60, 60]
+    deck[0] first8=[5, 5, 13, 19, 19, 19, 19, 66]
+  final observation current.turn=11 current.result=-1
+
+[5] OUR-EPISODE IDENTIFICATION:
+  Our Kaggle team name (leaderboard TeamName for member 'bscode') = 'BSCode'.
+  Episodes are matched by 'BSCode' in info.TeamNames (fallback info.Agents[].Name).
+  No submission-id/description appears in episode metadata -> match is by TEAM NAME.
+  our_index = TeamNames.index('BSCode'); opponent_index = 1 - our_index;
+  opponent_deck = steps[0][0].visualize[0].action[opponent_index];
+  our_result = win/loss/draw from rewards[our_index] (1/-1/0).

@@ -1,0 +1,8 @@
+{
+  "states_sampled": 50,
+  "reruns_each": 20,
+  "budget_ms": 200,
+  "mean_move_agreement": 0.981,
+  "mean_root_value_std": 0.031032638626000076,
+  "wall_seconds": 213.9
+}

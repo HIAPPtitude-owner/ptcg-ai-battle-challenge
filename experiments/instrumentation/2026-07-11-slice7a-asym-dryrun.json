@@ -1,0 +1,15 @@
+{
+  "label": "slice7a-asym-dryrun",
+  "n_decisions": 23,
+  "n_gated": 23,
+  "deviation_rate": 0.0,
+  "gate_blocked_rate": 0.6086956521739131,
+  "mean_iterations": 33.56521739130435,
+  "decisions_per_game_mean": 23.0,
+  "begin_failures": 0,
+  "step_failures": 0,
+  "per_game_decisions": [
+    23
+  ],
+  "max_move_seconds": 0.2027941000123974
+}

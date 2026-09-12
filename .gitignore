@@ -1,0 +1,55 @@
+# Licensed competition materials — competition-use only, must NEVER reach a remote
+pokemon-tcg-ai-battle/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Build artifacts
+submission.tar.gz
+submission/
+dist/
+
+# Vendored competition SDK (licensed material, copied by scripts/vendor_sdk.py)
+src/cg/
+
+# Playwright MCP artifacts
+.playwright-mcp/
+
+# OS
+Thumbs.db
+Desktop.ini
+results/
+
+# Generated training data (self-play trajectories, large + reproducible)
+experiments/data/
+
+# Factory status dashboard (regenerated runtime output, same class as watch.log)
+experiments/factory/dashboard.html
+
+# Transient worker heartbeats (churn every tick; matrix.json / matrix_blocks.jsonl are durable and stay tracked)
+experiments/factory/matrix_heartbeat.json
+experiments/factory/trainer_heartbeat.json
+
+# legacy deck-matrix worker output (retired path, regenerable)
+src/ptcg/decks/candidates/generated/
+
+# Factory lockfiles (transient, not already covered by an existing pattern)
+experiments/factory/*.lock
+experiments/factory/*.lock.lock
+
+# Factory tournament artifacts (SQLite DB + sidecars, UI lock, registration transcript — all runtime/regenerable, not versioned state)
+experiments/factory/tournament.db*
+experiments/factory/tournament_ui.lock
+experiments/factory/logs/register_tournament_tasks.transcript.txt
+
+# Factory transient output and control files (runner log, kill-switch that comes and goes)
+experiments/factory/logs/runner.log
+experiments/factory/SUBMIT_HOLD
+
+# Ladder-snapshot stamp (production rewrites it every poll; deliberately untracked — see 756147f/7c0042d)
+experiments/factory/snapshot_stamp.json

@@ -1,0 +1,313 @@
+{
+  "generated_at_utc": "2026-08-14T00:48:00.274563+00:00",
+  "db": "experiments/factory/tournament.db",
+  "active_concepts": 42070,
+  "unknown_id_skipped": 0,
+  "energy_quartile_bounds": [
+    16,
+    16,
+    16
+  ],
+  "histograms": {
+    "energy": {
+      "12": 669,
+      "16": 41401
+    },
+    "pokemon": {
+      "31": 662,
+      "27": 40734,
+      "24": 672,
+      "21": 2
+    },
+    "trainer": {
+      "17": 41389,
+      "21": 7,
+      "20": 672,
+      "23": 2
+    }
+  },
+  "sample_seed": 20260813,
+  "games_per_deck": 50,
+  "runs": [
+    {
+      "run": 0,
+      "strata": {
+        "0": {
+          "decks": [
+            {
+              "concept_id": "c-8ca6751264ee",
+              "deck_id": "c-8ca6751264ee-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 7,
+              "draws": 0,
+              "losses": 43,
+              "games": 50,
+              "wr": 0.14
+            },
+            {
+              "concept_id": "c-1baefd604e3a",
+              "deck_id": "c-1baefd604e3a-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 3,
+              "draws": 0,
+              "losses": 47,
+              "games": 50,
+              "wr": 0.06
+            },
+            {
+              "concept_id": "c-807bab595e57",
+              "deck_id": "c-807bab595e57-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 3,
+              "draws": 0,
+              "losses": 47,
+              "games": 50,
+              "wr": 0.06
+            },
+            {
+              "concept_id": "c-c9056fe8d30f",
+              "deck_id": "c-c9056fe8d30f-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 1,
+              "draws": 0,
+              "losses": 49,
+              "games": 50,
+              "wr": 0.02
+            },
+            {
+              "concept_id": "c-18ca5f2d3271",
+              "deck_id": "c-18ca5f2d3271-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 3,
+              "draws": 0,
+              "losses": 47,
+              "games": 50,
+              "wr": 0.06
+            },
+            {
+              "concept_id": "c-a34de68aa27a",
+              "deck_id": "c-a34de68aa27a-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 4,
+              "draws": 0,
+              "losses": 46,
+              "games": 50,
+              "wr": 0.08
+            },
+            {
+              "concept_id": "c-2723d4f2e2cc",
+              "deck_id": "c-2723d4f2e2cc-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 5,
+              "draws": 0,
+              "losses": 45,
+              "games": 50,
+              "wr": 0.1
+            },
+            {
+              "concept_id": "c-c153c9b04a7c",
+              "deck_id": "c-c153c9b04a7c-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 3,
+              "draws": 0,
+              "losses": 47,
+              "games": 50,
+              "wr": 0.06
+            },
+            {
+              "concept_id": "c-526b97b04f40",
+              "deck_id": "c-526b97b04f40-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 6,
+              "draws": 0,
+              "losses": 44,
+              "games": 50,
+              "wr": 0.12
+            },
+            {
+              "concept_id": "c-5f83520dfd93",
+              "deck_id": "c-5f83520dfd93-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 11,
+              "draws": 0,
+              "losses": 39,
+              "games": 50,
+              "wr": 0.22
+            }
+          ],
+          "pooled_wr": 0.092,
+          "pooled_games": 500
+        },
+        "1": {
+          "skipped": "empty stratum"
+        },
+        "2": {
+          "skipped": "empty stratum"
+        },
+        "3": {
+          "skipped": "empty stratum"
+        }
+      }
+    },
+    {
+      "run": 1,
+      "strata": {
+        "0": {
+          "decks": [
+            {
+              "concept_id": "c-8ca6751264ee",
+              "deck_id": "c-8ca6751264ee-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 2,
+              "draws": 0,
+              "losses": 48,
+              "games": 50,
+              "wr": 0.04
+            },
+            {
+              "concept_id": "c-1baefd604e3a",
+              "deck_id": "c-1baefd604e3a-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 4,
+              "draws": 0,
+              "losses": 46,
+              "games": 50,
+              "wr": 0.08
+            },
+            {
+              "concept_id": "c-807bab595e57",
+              "deck_id": "c-807bab595e57-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 0,
+              "draws": 0,
+              "losses": 50,
+              "games": 50,
+              "wr": 0.0
+            },
+            {
+              "concept_id": "c-c9056fe8d30f",
+              "deck_id": "c-c9056fe8d30f-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 2,
+              "draws": 0,
+              "losses": 48,
+              "games": 50,
+              "wr": 0.04
+            },
+            {
+              "concept_id": "c-18ca5f2d3271",
+              "deck_id": "c-18ca5f2d3271-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 5,
+              "draws": 0,
+              "losses": 45,
+              "games": 50,
+              "wr": 0.1
+            },
+            {
+              "concept_id": "c-a34de68aa27a",
+              "deck_id": "c-a34de68aa27a-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 9,
+              "draws": 0,
+              "losses": 41,
+              "games": 50,
+              "wr": 0.18
+            },
+            {
+              "concept_id": "c-2723d4f2e2cc",
+              "deck_id": "c-2723d4f2e2cc-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 6,
+              "draws": 0,
+              "losses": 44,
+              "games": 50,
+              "wr": 0.12
+            },
+            {
+              "concept_id": "c-c153c9b04a7c",
+              "deck_id": "c-c153c9b04a7c-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 2,
+              "draws": 0,
+              "losses": 48,
+              "games": 50,
+              "wr": 0.04
+            },
+            {
+              "concept_id": "c-526b97b04f40",
+              "deck_id": "c-526b97b04f40-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 1,
+              "draws": 0,
+              "losses": 49,
+              "games": 50,
+              "wr": 0.02
+            },
+            {
+              "concept_id": "c-5f83520dfd93",
+              "deck_id": "c-5f83520dfd93-sv0",
+              "energy": 16,
+              "pokemon": 27,
+              "wins": 5,
+              "draws": 0,
+              "losses": 45,
+              "games": 50,
+              "wr": 0.1
+            }
+          ],
+          "pooled_wr": 0.072,
+          "pooled_games": 500
+        },
+        "1": {
+          "skipped": "empty stratum"
+        },
+        "2": {
+          "skipped": "empty stratum"
+        },
+        "3": {
+          "skipped": "empty stratum"
+        }
+      }
+    }
+  ],
+  "baseline": {
+    "version": "v0.24",
+    "deck_id": "reseed-mut-51430502f003-sv0",
+    "runs": [
+      {
+        "wins": 118,
+        "draws": 0,
+        "losses": 82,
+        "games": 200,
+        "wr": 0.59
+      },
+      {
+        "wins": 121,
+        "draws": 0,
+        "losses": 79,
+        "games": 200,
+        "wr": 0.605
+      }
+    ]
+  }
+}

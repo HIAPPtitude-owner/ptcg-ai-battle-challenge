@@ -1,0 +1,376 @@
+{
+  "version": 1,
+  "decks": {
+    "38ae9e5b797f": "aggro-lightning.csv",
+    "41a15d86595e": "bigbasic-dragon.csv",
+    "dac0c5978a59": "disruption-darkness.csv",
+    "7aae9aa2f40f": "mega-lucario-fighting.csv",
+    "812b65201258": "mega-lucario-v2.csv",
+    "92f4362fabce": "mega-lucario-v3.csv",
+    "c8bd855e69eb": "mega-lucario-v4.csv",
+    "0ffe48d41b20": "mega-mawile-metal.csv",
+    "6ab71f2ee977": "mega-starmie-water.csv"
+  },
+  "pairings": [
+    {
+      "deck_a": "0ffe48d41b20",
+      "deck_b": "38ae9e5b797f",
+      "agent": "heuristic-v0",
+      "wins_a": 47,
+      "wins_b": 3,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "0ffe48d41b20",
+      "deck_b": "41a15d86595e",
+      "agent": "heuristic-v0",
+      "wins_a": 46,
+      "wins_b": 4,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "0ffe48d41b20",
+      "deck_b": "6ab71f2ee977",
+      "agent": "heuristic-v0",
+      "wins_a": 1,
+      "wins_b": 49,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "0ffe48d41b20",
+      "deck_b": "7aae9aa2f40f",
+      "agent": "heuristic-v0",
+      "wins_a": 3,
+      "wins_b": 47,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "0ffe48d41b20",
+      "deck_b": "812b65201258",
+      "agent": "heuristic-v0",
+      "wins_a": 10,
+      "wins_b": 40,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "0ffe48d41b20",
+      "deck_b": "92f4362fabce",
+      "agent": "heuristic-v0",
+      "wins_a": 11,
+      "wins_b": 39,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "0ffe48d41b20",
+      "deck_b": "c8bd855e69eb",
+      "agent": "heuristic-v0",
+      "wins_a": 9,
+      "wins_b": 41,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "0ffe48d41b20",
+      "deck_b": "dac0c5978a59",
+      "agent": "heuristic-v0",
+      "wins_a": 41,
+      "wins_b": 9,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "38ae9e5b797f",
+      "deck_b": "41a15d86595e",
+      "agent": "heuristic-v0",
+      "wins_a": 8,
+      "wins_b": 42,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "38ae9e5b797f",
+      "deck_b": "6ab71f2ee977",
+      "agent": "heuristic-v0",
+      "wins_a": 2,
+      "wins_b": 48,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "38ae9e5b797f",
+      "deck_b": "7aae9aa2f40f",
+      "agent": "heuristic-v0",
+      "wins_a": 1,
+      "wins_b": 49,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "38ae9e5b797f",
+      "deck_b": "812b65201258",
+      "agent": "heuristic-v0",
+      "wins_a": 1,
+      "wins_b": 49,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "38ae9e5b797f",
+      "deck_b": "92f4362fabce",
+      "agent": "heuristic-v0",
+      "wins_a": 0,
+      "wins_b": 50,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "38ae9e5b797f",
+      "deck_b": "c8bd855e69eb",
+      "agent": "heuristic-v0",
+      "wins_a": 0,
+      "wins_b": 50,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "38ae9e5b797f",
+      "deck_b": "dac0c5978a59",
+      "agent": "heuristic-v0",
+      "wins_a": 1,
+      "wins_b": 49,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "41a15d86595e",
+      "deck_b": "6ab71f2ee977",
+      "agent": "heuristic-v0",
+      "wins_a": 4,
+      "wins_b": 46,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "41a15d86595e",
+      "deck_b": "7aae9aa2f40f",
+      "agent": "heuristic-v0",
+      "wins_a": 4,
+      "wins_b": 46,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "41a15d86595e",
+      "deck_b": "812b65201258",
+      "agent": "heuristic-v0",
+      "wins_a": 5,
+      "wins_b": 45,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "41a15d86595e",
+      "deck_b": "92f4362fabce",
+      "agent": "heuristic-v0",
+      "wins_a": 8,
+      "wins_b": 42,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "41a15d86595e",
+      "deck_b": "c8bd855e69eb",
+      "agent": "heuristic-v0",
+      "wins_a": 4,
+      "wins_b": 46,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "41a15d86595e",
+      "deck_b": "dac0c5978a59",
+      "agent": "heuristic-v0",
+      "wins_a": 17,
+      "wins_b": 33,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "6ab71f2ee977",
+      "deck_b": "7aae9aa2f40f",
+      "agent": "heuristic-v0",
+      "wins_a": 84,
+      "wins_b": 116,
+      "draws": 0,
+      "games": 200,
+      "discarded": 0
+    },
+    {
+      "deck_a": "6ab71f2ee977",
+      "deck_b": "812b65201258",
+      "agent": "heuristic-v0",
+      "wins_a": 38,
+      "wins_b": 12,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "6ab71f2ee977",
+      "deck_b": "92f4362fabce",
+      "agent": "heuristic-v0",
+      "wins_a": 67,
+      "wins_b": 33,
+      "draws": 0,
+      "games": 100,
+      "discarded": 0
+    },
+    {
+      "deck_a": "6ab71f2ee977",
+      "deck_b": "c8bd855e69eb",
+      "agent": "heuristic-v0",
+      "wins_a": 60,
+      "wins_b": 40,
+      "draws": 0,
+      "games": 100,
+      "discarded": 0
+    },
+    {
+      "deck_a": "6ab71f2ee977",
+      "deck_b": "dac0c5978a59",
+      "agent": "heuristic-v0",
+      "wins_a": 47,
+      "wins_b": 3,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "7aae9aa2f40f",
+      "deck_b": "812b65201258",
+      "agent": "heuristic-v0",
+      "wins_a": 36,
+      "wins_b": 14,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "7aae9aa2f40f",
+      "deck_b": "92f4362fabce",
+      "agent": "heuristic-v0",
+      "wins_a": 34,
+      "wins_b": 16,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "7aae9aa2f40f",
+      "deck_b": "c8bd855e69eb",
+      "agent": "heuristic-v0",
+      "wins_a": 35,
+      "wins_b": 15,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "7aae9aa2f40f",
+      "deck_b": "dac0c5978a59",
+      "agent": "heuristic-v0",
+      "wins_a": 48,
+      "wins_b": 2,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "812b65201258",
+      "deck_b": "92f4362fabce",
+      "agent": "heuristic-v0",
+      "wins_a": 210,
+      "wins_b": 190,
+      "draws": 0,
+      "games": 400,
+      "discarded": 0
+    },
+    {
+      "deck_a": "812b65201258",
+      "deck_b": "c8bd855e69eb",
+      "agent": "heuristic-v0",
+      "wins_a": 16,
+      "wins_b": 34,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "812b65201258",
+      "deck_b": "dac0c5978a59",
+      "agent": "heuristic-v0",
+      "wins_a": 47,
+      "wins_b": 3,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "92f4362fabce",
+      "deck_b": "c8bd855e69eb",
+      "agent": "heuristic-v0",
+      "wins_a": 35,
+      "wins_b": 65,
+      "draws": 0,
+      "games": 100,
+      "discarded": 0
+    },
+    {
+      "deck_a": "92f4362fabce",
+      "deck_b": "dac0c5978a59",
+      "agent": "heuristic-v0",
+      "wins_a": 45,
+      "wins_b": 5,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    },
+    {
+      "deck_a": "c8bd855e69eb",
+      "deck_b": "dac0c5978a59",
+      "agent": "heuristic-v0",
+      "wins_a": 47,
+      "wins_b": 3,
+      "draws": 0,
+      "games": 50,
+      "discarded": 0
+    }
+  ]
+}

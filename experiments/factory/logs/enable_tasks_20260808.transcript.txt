@@ -1,0 +1,28 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260810075131
+Username: BRADDT\Brad
+RunAs User: BRADDT\Brad
+Configuration Name: 
+Machine: BRADDT (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -Command Start-Transcript -Path 'C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\experiments\factory\logs\enable_tasks_20260808.transcript.txt'; Enable-ScheduledTask -TaskName ptcg-factory-runner; Enable-ScheduledTask -TaskName ptcg-factory-scheduler; Start-ScheduledTask -TaskName ptcg-factory-scheduler; Start-ScheduledTask -TaskName ptcg-factory-runner; Stop-Transcript
+Process ID: 21904
+PSVersion: 5.1.19041.7417
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7417
+BuildVersion: 10.0.19041.7417
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\experiments\factory\logs\enable_tasks_20260808.transcript.txt
+
+TaskPath                                       TaskName                          State
+--------                                       --------                          -----
+\                                              ptcg-factory-runner               Ready
+\                                              ptcg-factory-scheduler            Ready
+**********************
+Windows PowerShell transcript end
+End time: 20260810075132
+**********************

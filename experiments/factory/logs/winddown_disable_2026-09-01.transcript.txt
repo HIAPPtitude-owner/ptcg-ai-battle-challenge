@@ -1,0 +1,180 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260901115720
+Username: BRADDT\Brad
+RunAs User: BRADDT\Brad
+Configuration Name: 
+Machine: BRADDT (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File scripts\factory_shutdown_disable.ps1 -DryRun
+Process ID: 6492
+PSVersion: 5.1.19041.7663
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7663
+BuildVersion: 10.0.19041.7663
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== ptcg factory FULL SHUTDOWN (2026-09-01) ===
+Repo      : C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy
+Started   : 2026-09-01 11:57:20
+Mode      : DRY RUN (read-only)
+
+--- Current task states (before) ---
+  ptcg-factory-continuous    Ready
+  ptcg-factory-runner        Disabled
+  ptcg-factory-scheduler     Disabled
+  ptcg-factory-ui            Running
+
+--- Actions that WOULD be taken ---
+  DRYRUN: Disable-ScheduledTask -TaskName ptcg-factory-continuous
+  DRYRUN: Disable-ScheduledTask -TaskName ptcg-factory-ui
+  DRYRUN: Stop-ScheduledTask -TaskName ptcg-factory-ui   (after disable, so the watchdog cannot respawn it)
+  DRYRUN: verify all 4 tasks Disabled; report orphan python/factory processes and any listener on port 8765
+  DRYRUN: nothing is killed by this script - orphans are reported only.
+
+--- Task states (after) ---
+
+TaskName                State   
+--------                -----   
+ptcg-factory-continuous Ready   
+ptcg-factory-runner     Disabled
+ptcg-factory-scheduler  Disabled
+ptcg-factory-ui         Running
+--- Orphan python/factory processes ---
+ORPHAN: 256 "C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\.venv\Scripts\python.exe" scripts/factory_ui.py --db experiments/factory/tournament.db --port 8765
+ORPHAN: 24532 "C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\.venv\Scripts\python.exe" scripts/factory_ui.py --db experiments/factory/tournament.db --port 8765
+  (not killed - the orchestrator decides)
+
+--- Listeners on port 8765 ---
+
+LocalAddress LocalPort  State OwningProcess
+------------ ---------  ----- -------------
+127.0.0.1         8765 Listen         24532
+ORPHAN: 24532 "C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\.venv\Scripts\python.exe" scripts/factory_ui.py --db experiments/factory/tournament.db --port 8765
+
+DRYRUN: complete - nothing was changed.
+**********************
+Windows PowerShell transcript end
+End time: 20260901115732
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260901115836
+Username: BRADDT\Brad
+RunAs User: BRADDT\Brad
+Configuration Name: 
+Machine: BRADDT (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\scripts\factory_shutdown_disable.ps1 -DryRun
+Process ID: 52396
+PSVersion: 5.1.19041.7663
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7663
+BuildVersion: 10.0.19041.7663
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== ptcg factory FULL SHUTDOWN (2026-09-01) ===
+Repo      : C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy
+Started   : 2026-09-01 11:58:37
+Mode      : DRY RUN (read-only)
+
+--- Current task states (before) ---
+  ptcg-factory-continuous    Ready
+  ptcg-factory-runner        Disabled
+  ptcg-factory-scheduler     Disabled
+  ptcg-factory-ui            Running
+
+--- Actions that WOULD be taken ---
+  DRYRUN: Disable-ScheduledTask -TaskName ptcg-factory-continuous
+  DRYRUN: Disable-ScheduledTask -TaskName ptcg-factory-ui
+  DRYRUN: Stop-ScheduledTask -TaskName ptcg-factory-ui   (after disable, so the watchdog cannot respawn it)
+  DRYRUN: verify all 4 tasks Disabled; report orphan python/factory processes and any listener on port 8765
+  DRYRUN: nothing is killed by this script - orphans are reported only.
+
+--- Task states (after) ---
+
+TaskName                State   
+--------                -----   
+ptcg-factory-continuous Ready   
+ptcg-factory-runner     Disabled
+ptcg-factory-scheduler  Disabled
+ptcg-factory-ui         Running
+--- Orphan python/factory processes ---
+ORPHAN: 256 "C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\.venv\Scripts\python.exe" scripts/factory_ui.py --db experiments/factory/tournament.db --port 8765
+ORPHAN: 24532 "C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\.venv\Scripts\python.exe" scripts/factory_ui.py --db experiments/factory/tournament.db --port 8765
+  (not killed - the orchestrator decides)
+
+--- Listeners on port 8765 ---
+
+LocalAddress LocalPort  State OwningProcess
+------------ ---------  ----- -------------
+127.0.0.1         8765 Listen         24532
+ORPHAN: 24532 "C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\.venv\Scripts\python.exe" scripts/factory_ui.py --db experiments/factory/tournament.db --port 8765
+
+DRYRUN: complete - nothing was changed.
+**********************
+Windows PowerShell transcript end
+End time: 20260901115903
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260901120005
+Username: BRADDT\Brad
+RunAs User: BRADDT\Brad
+Configuration Name: 
+Machine: BRADDT (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\scripts\factory_shutdown_disable.ps1
+Process ID: 35920
+PSVersion: 5.1.19041.7663
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7663
+BuildVersion: 10.0.19041.7663
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== ptcg factory FULL SHUTDOWN (2026-09-01) ===
+Repo      : C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy
+Started   : 2026-09-01 12:00:05
+Mode      : REAL (disables tasks)
+
+--- Current task states (before) ---
+  ptcg-factory-continuous    Running
+  ptcg-factory-runner        Disabled
+  ptcg-factory-scheduler     Disabled
+  ptcg-factory-ui            Running
+
+--- Disabling ---
+  OK: disabled ptcg-factory-continuous
+  OK: disabled ptcg-factory-ui
+
+--- Stopping the running UI process ---
+  issued: Stop-ScheduledTask -TaskName ptcg-factory-ui
+
+--- Task states (after) ---
+
+TaskName                State   
+--------                -----   
+ptcg-factory-continuous Running 
+ptcg-factory-runner     Disabled
+ptcg-factory-scheduler  Disabled
+ptcg-factory-ui         Disabled
+--- Orphan python/factory processes ---
+ORPHAN: 51944 "C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\.venv\Scripts\python.exe" scripts/factory_watch_once.py
+ORPHAN: 50376 "C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\.venv\Scripts\python.exe" scripts/factory_watch_once.py
+  (not killed - the orchestrator decides)
+
+--- Listeners on port 8765 ---
+  none
+
+SHUTDOWN: FAIL
+  - not every factory task reads Disabled (see table above)
+**********************
+Windows PowerShell transcript end
+End time: 20260901120028
+**********************

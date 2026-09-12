@@ -1,0 +1,34 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260818075002
+Username: BRADDT\Brad
+RunAs User: BRADDT\Brad
+Configuration Name: 
+Machine: BRADDT (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\Brad\AppData\Local\Temp\claude\C--Users-Brad-Dev-Folder-Product-ptcg-ai-battle-challenge-strategy\17c30370-9d35-4a30-90db-80674497e28e\scratchpad\winddown_disable.ps1
+Process ID: 11032
+PSVersion: 5.1.19041.7548
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.7548
+BuildVersion: 10.0.19041.7548
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Brad\Dev Folder\Product\ptcg-ai-battle-challenge-strategy\experiments\factory\logs\winddown_disable.transcript.txt
+
+TaskPath                                       TaskName                          State
+--------                                       --------                          -----
+\                                              ptcg-factory-runner               Running
+\                                              ptcg-factory-scheduler            Running
+
+TaskName                  State
+--------                  -----
+ptcg-factory-runner    Disabled
+ptcg-factory-scheduler Disabled
+WINDDOWN: OK
+**********************
+Windows PowerShell transcript end
+End time: 20260818075004
+**********************

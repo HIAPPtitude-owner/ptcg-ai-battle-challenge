@@ -1,0 +1,2934 @@
+{
+  "version": 1,
+  "candidates": [
+    {
+      "id": "mega-starmie-water-searchnet-v0.1",
+      "name": "mega-starmie-water-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.41333333333333333,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "below 0.45 floor vs baseline"
+    },
+    {
+      "id": "mega-starmie-water-searchnet-v0.2",
+      "name": "mega-starmie-water-searchnet",
+      "version": "v0.2",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle1",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": 0.35333333333333333,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "below 0.45 floor vs baseline"
+    },
+    {
+      "id": "mega-lucario-fighting-heuristic-v1.0",
+      "name": "mega-lucario-fighting-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-lucario-fighting.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "seed:slice3-tournament",
+      "priority": 0.2,
+      "status": "scored",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": 0.46,
+      "local_games": 50,
+      "local_breakdown": null,
+      "matrix_rating": 1.5084059697377332,
+      "matrix_games": 1340,
+      "matrix_opponents": 42,
+      "kaggle_score": 574.3,
+      "submitted_at": "2026-07-11T11:00",
+      "last_resubmitted_at": null,
+      "score_history": [
+        [
+          "2026-07-11T11:05",
+          600.0
+        ],
+        [
+          "2026-07-12T02:00",
+          577.2
+        ],
+        [
+          "2026-07-13T02:00",
+          574.3
+        ]
+      ],
+      "notes": "submitted manually 2026-07-11 (ref 54585057) after fixing pipe/slash description bug; bypassed factory submit_candidates() path; ladder-confirmed exhausted line, weekly review 2026-07-14"
+    },
+    {
+      "id": "mega-lucario-v4-heuristic-v1.0",
+      "name": "mega-lucario-v4-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-lucario-v4.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "seed:slice3-tournament",
+      "priority": 0.2,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.42,
+      "local_games": 50,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "below 0.45 floor vs baseline; ladder-confirmed exhausted line, weekly review 2026-07-14"
+    },
+    {
+      "id": "mega-starmie-water-heuristic-v1.0",
+      "name": "mega-starmie-water-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "seed:slice3-tournament",
+      "priority": 0.675,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.43333333333333335,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "below 0.45 floor vs baseline"
+    },
+    {
+      "id": "mega-lucario-v2-heuristic-v1.0",
+      "name": "mega-lucario-v2-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-lucario-v2.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "seed:slice3-tournament",
+      "priority": 0.2,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.24,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "below 0.45 floor vs baseline; ladder-confirmed exhausted line, weekly review 2026-07-14"
+    },
+    {
+      "id": "mega-lucario-v3-heuristic-v1.0",
+      "name": "mega-lucario-v3-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-lucario-v3.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "seed:slice3-tournament",
+      "priority": 0.2,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.37333333333333335,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "below 0.45 floor vs baseline; ladder-confirmed exhausted line, weekly review 2026-07-14"
+    },
+    {
+      "id": "mega-mawile-metal-heuristic-v1.0",
+      "name": "mega-mawile-metal-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-mawile-metal.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "seed:slice3-tournament",
+      "priority": 0.42,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.03333333333333333,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "below 0.45 floor vs baseline"
+    },
+    {
+      "id": "disruption-darkness-heuristic-v1.0",
+      "name": "disruption-darkness-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/disruption-darkness.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "seed:slice3-tournament",
+      "priority": 0.268,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.03333333333333333,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "below 0.45 floor vs baseline"
+    },
+    {
+      "id": "bigbasic-dragon-heuristic-v1.0",
+      "name": "bigbasic-dragon-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/bigbasic-dragon.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "seed:slice3-tournament",
+      "priority": 0.22,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.08,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "below 0.45 floor vs baseline"
+    },
+    {
+      "id": "aggro-lightning-heuristic-v1.0",
+      "name": "aggro-lightning-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/aggro-lightning.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "seed:slice3-tournament",
+      "priority": 0.04,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.05333333333333334,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "below 0.45 floor vs baseline"
+    },
+    {
+      "id": "mega-lucario-fighting-searchnet-v1.0",
+      "name": "mega-lucario-fighting-searchnet",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-lucario-fighting.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "deviate_min_visits": 20,
+        "deviate_value_edge": 0.12,
+        "net_weights": "src/ptcg/search/value_net_weights_v2.json"
+      },
+      "provenance": "seed:slice6-operating-config",
+      "priority": 0.2,
+      "status": "scored",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.5333333333333333,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": 1.6891578005958838,
+      "matrix_games": 1240,
+      "matrix_opponents": 32,
+      "kaggle_score": 533.1,
+      "submitted_at": "2026-07-12T02:42",
+      "last_resubmitted_at": null,
+      "score_history": [
+        [
+          "2026-07-13T02:00",
+          522.1
+        ],
+        [
+          "2026-07-15T02:00",
+          533.1
+        ]
+      ],
+      "notes": "ladder-confirmed exhausted line, weekly review 2026-07-14"
+    },
+    {
+      "id": "mega-lucario-v4-searchnet-v1.0",
+      "name": "mega-lucario-v4-searchnet",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-lucario-v4.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "deviate_min_visits": 20,
+        "deviate_value_edge": 0.12,
+        "net_weights": "src/ptcg/search/value_net_weights_v2.json"
+      },
+      "provenance": "seed:slice6-operating-config",
+      "priority": 0.2,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.44,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "below 0.45 floor vs baseline; ladder-confirmed exhausted line, weekly review 2026-07-14"
+    },
+    {
+      "id": "mega-starmie-water-searchnet-v1.0",
+      "name": "mega-starmie-water-searchnet",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "deviate_min_visits": 20,
+        "deviate_value_edge": 0.12,
+        "net_weights": "src/ptcg/search/value_net_weights_v2.json"
+      },
+      "provenance": "seed:slice6-operating-config",
+      "priority": 0.3,
+      "status": "scored",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.47333333333333333,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": 1.2028821109508039,
+      "matrix_games": 940,
+      "matrix_opponents": 23,
+      "kaggle_score": 537.9,
+      "submitted_at": "2026-07-15T02:20",
+      "last_resubmitted_at": "2026-07-15T02:20",
+      "score_history": [
+        [
+          "2026-07-13T02:00",
+          630.8
+        ],
+        [
+          "2026-07-15T02:00",
+          569.5
+        ],
+        [
+          "2026-07-16T02:00",
+          537.9
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mega-lucario-fighting-searchnet-prior-v1.0",
+      "name": "mega-lucario-fighting-searchnet-prior",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-lucario-fighting.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "deviate_min_visits": 20,
+        "deviate_value_edge": 0.12,
+        "net_weights": "src/ptcg/search/value_net_weights_v2.json",
+        "use_root_prior": true,
+        "prior_tau": 0.1,
+        "c_puct": 1.5
+      },
+      "provenance": "seed:slice6-stage2-config",
+      "priority": 0.2,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.3933333333333333,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "below 0.45 floor vs baseline; ladder-confirmed exhausted line, weekly review 2026-07-14"
+    },
+    {
+      "id": "mega-starmie-water-density20-heuristic-v1.0",
+      "name": "mega-starmie-water-density20-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water-density20.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "weekly-review-2026-07-14:starmie-axis",
+      "priority": 0.78,
+      "status": "scored",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.6466666666666666,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": 2.1451707101117172,
+      "matrix_games": 1140,
+      "matrix_opponents": 23,
+      "kaggle_score": 530.9,
+      "submitted_at": "2026-07-19T21:31",
+      "last_resubmitted_at": "2026-07-19T21:31",
+      "score_history": [
+        [
+          "2026-07-16T02:00",
+          558.7
+        ],
+        [
+          "2026-07-17T02:00",
+          650.5
+        ],
+        [
+          "2026-07-17T08:04",
+          649.1
+        ],
+        [
+          "2026-07-19T21:30",
+          606.0
+        ],
+        [
+          "2026-07-19T21:45",
+          548.7
+        ],
+        [
+          "2026-07-19T22:00",
+          522.3
+        ],
+        [
+          "2026-07-19T22:15",
+          482.8
+        ],
+        [
+          "2026-07-19T22:45",
+          458.0
+        ],
+        [
+          "2026-07-19T23:00",
+          488.4
+        ],
+        [
+          "2026-07-19T23:15",
+          502.2
+        ],
+        [
+          "2026-07-19T23:30",
+          528.3
+        ],
+        [
+          "2026-07-19T23:45",
+          522.7
+        ],
+        [
+          "2026-07-20T00:15",
+          529.8
+        ],
+        [
+          "2026-07-20T01:15",
+          521.3
+        ],
+        [
+          "2026-07-20T03:00",
+          520.6
+        ],
+        [
+          "2026-07-20T04:45",
+          527.9
+        ],
+        [
+          "2026-07-20T05:45",
+          520.1
+        ],
+        [
+          "2026-07-20T06:30",
+          529.3
+        ],
+        [
+          "2026-07-20T07:00",
+          524.7
+        ],
+        [
+          "2026-07-20T09:15",
+          530.9
+        ]
+      ],
+      "notes": "26->20 energy; +Buddy-Buddy Poffin; closest to 630.8 ladder deck; weekly-review smoke 11-9/20 vs lucario-v0 (non-degenerate) | eval: mega-lucario-fighting: 43/75 (0.573); mega-starmie-water: 54/75 (0.720)"
+    },
+    {
+      "id": "mega-starmie-water-lean-heuristic-v1.0",
+      "name": "mega-starmie-water-lean-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water-lean.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "weekly-review-2026-07-14:starmie-axis",
+      "priority": 0.75,
+      "status": "evaluated-below-incumbent",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.5,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": 1.7383414665772694,
+      "matrix_games": 1140,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "18 energy, consistency reinvest, single attacker (clean density thesis); weekly-review smoke 11-9/20 vs lucario-v0 (non-degenerate) | eval: mega-lucario-fighting: 33/75 (0.440); mega-starmie-water: 42/75 (0.560)"
+    },
+    {
+      "id": "mega-starmie-water-ogerpon-heuristic-v1.0",
+      "name": "mega-starmie-water-ogerpon-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water-ogerpon.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "weekly-review-2026-07-14:starmie-axis",
+      "priority": 0.72,
+      "status": "evaluated-below-incumbent",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.47333333333333333,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": 1.210843278252536,
+      "matrix_games": 1140,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "16 energy + 2 Wellspring Ogerpon ex secondary Water attacker; weekly-review smoke 9-11/20 vs lucario-v0 (non-degenerate) | eval: mega-lucario-fighting: 33/75 (0.440); mega-starmie-water: 38/75 (0.507)"
+    },
+    {
+      "id": "mega-starmie-water-turbo-heuristic-v1.0",
+      "name": "mega-starmie-water-turbo-heuristic",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water-turbo.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "weekly-review-2026-07-14:starmie-axis",
+      "priority": 0.7,
+      "status": "evaluated-below-incumbent",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.4666666666666667,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": 1.4350181048045219,
+      "matrix_games": 970,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "13 energy sustained by Energy Recycler + max search (aggressive density); weekly-review smoke 9-11/20 vs lucario-v0 (non-degenerate) | eval: mega-lucario-fighting: 32/75 (0.427); mega-starmie-water: 38/75 (0.507)"
+    },
+    {
+      "id": "mega-starmie-water-lean-searchnet-v1.0",
+      "name": "mega-starmie-water-lean-searchnet",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water-lean.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "deviate_min_visits": 20,
+        "deviate_value_edge": 0.12,
+        "net_weights": "src/ptcg/search/value_net_weights_v2.json"
+      },
+      "provenance": "weekly-review-2026-07-14:starmie-axis",
+      "priority": 0.4,
+      "status": "scored",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.5533333333333333,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": 1.659706493914077,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": 598.2,
+      "submitted_at": "2026-07-16T02:00",
+      "last_resubmitted_at": null,
+      "score_history": [
+        [
+          "2026-07-17T02:00",
+          615.7
+        ],
+        [
+          "2026-07-17T08:04",
+          621.6
+        ],
+        [
+          "2026-07-19T21:30",
+          593.8
+        ],
+        [
+          "2026-07-19T21:45",
+          598.2
+        ]
+      ],
+      "notes": "clean-density deck + v2-net search; exploratory (starmie axis now ladder-evidence-backed) | eval: mega-lucario-fighting: 42/75 (0.560); mega-starmie-water: 41/75 (0.547)"
+    },
+    {
+      "id": "mega-starmie-water-ogerpon-searchnet-v1.0",
+      "name": "mega-starmie-water-ogerpon-searchnet",
+      "version": "v1.0",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water-ogerpon.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "deviate_min_visits": 20,
+        "deviate_value_edge": 0.12,
+        "net_weights": "src/ptcg/search/value_net_weights_v2.json"
+      },
+      "provenance": "weekly-review-2026-07-14:starmie-axis",
+      "priority": 0.37,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.43333333333333335,
+      "local_games": 150,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "secondary-attacker deck + v2-net search; exploratory (starmie axis now ladder-evidence-backed) | eval: below 0.45 floor vs baseline | mega-lucario-fighting: 33/75 (0.440); mega-starmie-water: 32/75 (0.427)"
+    },
+    {
+      "id": "mega-starmie-water-attacker-down1-heuristic-v0.1",
+      "name": "mega-starmie-water-attacker-down1-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-attacker-down1.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-starmie-water:attacker-down1",
+      "priority": 0.6,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.42,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 30,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 33,
+          "games": 75
+        }
+      ],
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: below 0.45 floor vs baseline | mega-lucario-fighting: 30/75 (0.400); mega-starmie-water: 33/75 (0.440)"
+    },
+    {
+      "id": "mega-starmie-water-density20-attacker-down1-heuristic-v0.1",
+      "name": "mega-starmie-water-density20-attacker-down1-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-density20-attacker-down1.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-starmie-water-density20:attacker-down1",
+      "priority": 0.6,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.5066666666666667,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 32,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 44,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.8522967240671486,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: mega-lucario-fighting: 32/75 (0.427); mega-starmie-water: 44/75 (0.587)"
+    },
+    {
+      "id": "mega-starmie-water-density20-energy-up2-heuristic-v0.1",
+      "name": "mega-starmie-water-density20-energy-up2-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-density20-energy-up2.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-starmie-water-density20:energy-up2",
+      "priority": 0.6,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.49333333333333335,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 37,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 37,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.296699285956393,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: mega-lucario-fighting: 37/75 (0.493); mega-starmie-water: 37/75 (0.493)"
+    },
+    {
+      "id": "mega-starmie-water-energy-down2-heuristic-v0.1",
+      "name": "mega-starmie-water-energy-down2-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-energy-down2.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-starmie-water:energy-down2",
+      "priority": 0.6,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.4666666666666667,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 28,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 42,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.1772561499103493,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: mega-lucario-fighting: 28/75 (0.373); mega-starmie-water: 42/75 (0.560)"
+    },
+    {
+      "id": "mega-starmie-water-energy-up2-heuristic-v0.1",
+      "name": "mega-starmie-water-energy-up2-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-energy-up2.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-starmie-water:energy-up2",
+      "priority": 0.6,
+      "status": "evaluated-below-incumbent",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.4666666666666667,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 33,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 37,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.1723567396060053,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: mega-lucario-fighting: 33/75 (0.440); mega-starmie-water: 37/75 (0.493)"
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down1-heuristic-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down1-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down1.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-starmie-water-lean:attacker-down1",
+      "priority": 0.6,
+      "status": "scored",
+      "novel_axis": true,
+      "is_incumbent": true,
+      "local_wr": 0.5533333333333333,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 38,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 45,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.4191024178375073,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": 458.2,
+      "submitted_at": "2026-07-20T11:15",
+      "last_resubmitted_at": "2026-07-20T11:15",
+      "score_history": [
+        [
+          "2026-07-19T21:45",
+          665.5
+        ],
+        [
+          "2026-07-19T22:00",
+          417.4
+        ],
+        [
+          "2026-07-19T22:15",
+          634.8
+        ],
+        [
+          "2026-07-19T22:45",
+          590.7
+        ],
+        [
+          "2026-07-19T23:00",
+          567.4
+        ],
+        [
+          "2026-07-19T23:15",
+          538.8
+        ],
+        [
+          "2026-07-19T23:30",
+          531.4
+        ],
+        [
+          "2026-07-19T23:45",
+          529.7
+        ],
+        [
+          "2026-07-20T00:45",
+          521.9
+        ],
+        [
+          "2026-07-20T01:30",
+          529.8
+        ],
+        [
+          "2026-07-20T01:45",
+          537.5
+        ],
+        [
+          "2026-07-20T02:00",
+          532.4
+        ],
+        [
+          "2026-07-20T03:15",
+          551.6
+        ],
+        [
+          "2026-07-20T05:45",
+          561.1
+        ],
+        [
+          "2026-07-20T06:00",
+          568.8
+        ],
+        [
+          "2026-07-20T07:00",
+          568.5
+        ],
+        [
+          "2026-07-20T07:45",
+          563.7
+        ],
+        [
+          "2026-07-20T08:00",
+          571.6
+        ],
+        [
+          "2026-07-20T11:15",
+          548.6
+        ],
+        [
+          "2026-07-20T11:30",
+          536.2
+        ],
+        [
+          "2026-07-20T11:45",
+          499.3
+        ],
+        [
+          "2026-07-20T12:00",
+          378.3
+        ],
+        [
+          "2026-07-20T12:15",
+          456.1
+        ],
+        [
+          "2026-07-20T13:30",
+          468.4
+        ],
+        [
+          "2026-07-20T15:30",
+          479.1
+        ],
+        [
+          "2026-07-20T16:30",
+          473.1
+        ],
+        [
+          "2026-07-20T18:45",
+          476.7
+        ],
+        [
+          "2026-07-20T21:00",
+          487.2
+        ],
+        [
+          "2026-07-20T23:45",
+          480.2
+        ],
+        [
+          "2026-07-21T02:15",
+          473.3
+        ],
+        [
+          "2026-07-21T03:00",
+          472.0
+        ],
+        [
+          "2026-07-21T03:15",
+          476.8
+        ],
+        [
+          "2026-07-21T06:30",
+          487.2
+        ],
+        [
+          "2026-07-21T09:30",
+          483.4
+        ],
+        [
+          "2026-07-21T09:45",
+          476.5
+        ],
+        [
+          "2026-07-21T10:15",
+          481.0
+        ],
+        [
+          "2026-07-21T12:00",
+          475.0
+        ],
+        [
+          "2026-07-21T15:45",
+          482.4
+        ],
+        [
+          "2026-07-21T19:15",
+          477.5
+        ],
+        [
+          "2026-07-21T19:45",
+          472.2
+        ],
+        [
+          "2026-07-21T23:30",
+          466.8
+        ],
+        [
+          "2026-07-22T00:45",
+          463.1
+        ],
+        [
+          "2026-07-22T01:45",
+          457.7
+        ],
+        [
+          "2026-07-22T05:30",
+          463.3
+        ],
+        [
+          "2026-07-22T09:30",
+          458.2
+        ]
+      ],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: mega-lucario-fighting: 38/75 (0.507); mega-starmie-water: 45/75 (0.600) | last-attempt: upload-failed: RuntimeError('kaggle CLI failed (1): ')"
+    },
+    {
+      "id": "mega-starmie-water-lean-energy-down2-heuristic-v0.1",
+      "name": "mega-starmie-water-lean-energy-down2-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-energy-down2.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-starmie-water-lean:energy-down2",
+      "priority": 0.6,
+      "status": "evaluated-below-incumbent",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.5266666666666666,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 36,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 43,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.5450198405792201,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: mega-lucario-fighting: 36/75 (0.480); mega-starmie-water: 43/75 (0.573)"
+    },
+    {
+      "id": "mega-starmie-water-lean-energy-up2-heuristic-v0.1",
+      "name": "mega-starmie-water-lean-energy-up2-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-energy-up2.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-starmie-water-lean:energy-up2",
+      "priority": 0.6,
+      "status": "evaluated-below-incumbent",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.46,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 30,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 39,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.688325149955782,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: mega-lucario-fighting: 30/75 (0.400); mega-starmie-water: 39/75 (0.520)"
+    },
+    {
+      "id": "mega-lucario-fighting-attacker-down1-heuristic-v0.1",
+      "name": "mega-lucario-fighting-attacker-down1-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-lucario-fighting-attacker-down1.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-lucario-fighting:attacker-down1",
+      "priority": 0.45,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.4266666666666667,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 29,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 35,
+          "games": 75
+        }
+      ],
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: below 0.45 floor vs baseline | mega-lucario-fighting: 29/75 (0.387); mega-starmie-water: 35/75 (0.467)"
+    },
+    {
+      "id": "mega-lucario-fighting-energy-down2-heuristic-v0.1",
+      "name": "mega-lucario-fighting-energy-down2-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-lucario-fighting-energy-down2.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-lucario-fighting:energy-down2",
+      "priority": 0.45,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.5266666666666666,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 34,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 45,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.6610009561301946,
+      "matrix_games": 34,
+      "matrix_opponents": 5,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: mega-lucario-fighting: 34/75 (0.453); mega-starmie-water: 45/75 (0.600)"
+    },
+    {
+      "id": "mega-lucario-fighting-energy-up2-heuristic-v0.1",
+      "name": "mega-lucario-fighting-energy-up2-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-lucario-fighting-energy-up2.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-lucario-fighting:energy-up2",
+      "priority": 0.45,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.44666666666666666,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 34,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 33,
+          "games": 75
+        }
+      ],
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: below 0.45 floor vs baseline | mega-lucario-fighting: 34/75 (0.453); mega-starmie-water: 33/75 (0.440)"
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down1-searchnet-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down1-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down1.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-attacker-down1.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle2",
+      "priority": 0.3,
+      "status": "evaluated-below-incumbent",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.52,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 37,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 41,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.4434270297634606,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "eval: mega-lucario-fighting: 37/75 (0.493); mega-starmie-water: 41/75 (0.547)"
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down1-searchnet-b500-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down1-searchnet-b500",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down1.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 500,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-attacker-down1.json"
+      },
+      "provenance": "deck-matrix:net-tier",
+      "priority": 0.35,
+      "status": "retired",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": 0.5066666666666667,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 39,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 37,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.8185992039071952,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: mega-lucario-fighting: 39/75 (0.520); mega-starmie-water: 37/75 (0.493)"
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down2-heuristic-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down2-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down2.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "weekly-review:2026-07-20:lean-attacker-down1-2nd-order",
+      "priority": 0.7,
+      "status": "evaluated-below-incumbent",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": 0.47333333333333333,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 29,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 42,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.2511383391826802,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "2026-07-20 weekly review: 2nd-order mutation around ladder-best lean-attacker-down1 (571.6, converged highest); gate re-keyed to lean-attacker-down1 local_wr 0.553 bar. | eval: mega-lucario-fighting: 29/75 (0.387); mega-starmie-water: 42/75 (0.560)"
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down1-energy-up2-heuristic-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down1-energy-up2-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down1-energy-up2.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "weekly-review:2026-07-20:lean-attacker-down1-2nd-order",
+      "priority": 0.55,
+      "status": "retired",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": 0.49333333333333335,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 34,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 40,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 0.5426495109607221,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "2026-07-20 weekly review: 2nd-order mutation around ladder-best lean-attacker-down1 (571.6, converged highest); gate re-keyed to lean-attacker-down1 local_wr 0.553 bar. | eval: mega-lucario-fighting: 34/75 (0.453); mega-starmie-water: 40/75 (0.533)"
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down1-energy-down2-heuristic-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down1-energy-down2-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down1-energy-down2.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "weekly-review:2026-07-20:lean-attacker-down1-2nd-order",
+      "priority": 0.55,
+      "status": "retired",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": 0.4266666666666667,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 31,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 33,
+          "games": 75
+        }
+      ],
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "2026-07-20 weekly review: 2nd-order mutation around ladder-best lean-attacker-down1 (571.6, converged highest); gate re-keyed to lean-attacker-down1 local_wr 0.553 bar. | eval: below 0.45 floor vs baseline | mega-lucario-fighting: 31/75 (0.413); mega-starmie-water: 33/75 (0.440)"
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down1-searchnet-v0.2",
+      "name": "mega-starmie-water-lean-attacker-down1-searchnet",
+      "version": "v0.2",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down1.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-attacker-down1.json"
+      },
+      "provenance": "weekly-review:2026-07-20:lean-attacker-down1-2nd-order",
+      "priority": 0.7,
+      "status": "evaluated-below-incumbent",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": 0.49333333333333335,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 38,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 36,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.2813796279062182,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "2026-07-20 weekly review: 2nd-order mutation around ladder-best lean-attacker-down1 (571.6, converged highest); gate re-keyed to lean-attacker-down1 local_wr 0.553 bar. | eval: mega-lucario-fighting: 38/75 (0.507); mega-starmie-water: 36/75 (0.480)"
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down1-attacker-down1-heuristic-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down1-attacker-down1-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down1-attacker-down1.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-starmie-water-lean-attacker-down1:attacker-down1",
+      "priority": 0.6,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.42,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 28,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 35,
+          "games": 75
+        }
+      ],
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: below 0.45 floor vs baseline | mega-lucario-fighting: 28/75 (0.373); mega-starmie-water: 35/75 (0.467)"
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down1-attacker-up1-heuristic-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down1-attacker-up1-heuristic",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down1-attacker-up1.csv",
+      "agent_kind": "heuristic",
+      "agent_config": {},
+      "provenance": "deck-matrix:mega-starmie-water-lean-attacker-down1:attacker-up1",
+      "priority": 0.6,
+      "status": "scored",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": 0.5666666666666667,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 35,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 50,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.6148211508468888,
+      "matrix_games": 1140,
+      "matrix_opponents": 24,
+      "kaggle_score": 522.2,
+      "submitted_at": "2026-07-22T09:30",
+      "last_resubmitted_at": "2026-07-22T09:30",
+      "score_history": [
+        [
+          "2026-07-20T11:30",
+          549.6
+        ],
+        [
+          "2026-07-20T11:45",
+          571.6
+        ],
+        [
+          "2026-07-20T12:00",
+          627.8
+        ],
+        [
+          "2026-07-20T12:15",
+          540.1
+        ],
+        [
+          "2026-07-20T13:30",
+          488.3
+        ],
+        [
+          "2026-07-20T13:45",
+          479.3
+        ],
+        [
+          "2026-07-20T15:15",
+          491.5
+        ],
+        [
+          "2026-07-20T17:00",
+          499.9
+        ],
+        [
+          "2026-07-20T18:45",
+          512.3
+        ],
+        [
+          "2026-07-20T19:30",
+          517.5
+        ],
+        [
+          "2026-07-20T21:15",
+          529.6
+        ],
+        [
+          "2026-07-20T21:45",
+          538.1
+        ],
+        [
+          "2026-07-20T23:45",
+          530.9
+        ],
+        [
+          "2026-07-21T01:45",
+          524.9
+        ],
+        [
+          "2026-07-21T04:30",
+          531.9
+        ],
+        [
+          "2026-07-21T06:30",
+          538.2
+        ],
+        [
+          "2026-07-21T09:00",
+          531.4
+        ],
+        [
+          "2026-07-21T10:15",
+          538.3
+        ],
+        [
+          "2026-07-21T10:30",
+          532.7
+        ],
+        [
+          "2026-07-21T13:00",
+          528.1
+        ],
+        [
+          "2026-07-21T16:15",
+          530.7
+        ],
+        [
+          "2026-07-21T16:30",
+          536.3
+        ],
+        [
+          "2026-07-21T19:00",
+          530.8
+        ],
+        [
+          "2026-07-21T22:15",
+          535.6
+        ],
+        [
+          "2026-07-21T23:15",
+          531.6
+        ],
+        [
+          "2026-07-22T02:45",
+          537.7
+        ],
+        [
+          "2026-07-22T05:00",
+          534.2
+        ],
+        [
+          "2026-07-22T09:30",
+          528.8
+        ],
+        [
+          "2026-07-22T09:45",
+          585.6
+        ],
+        [
+          "2026-07-22T10:00",
+          522.2
+        ]
+      ],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: mega-lucario-fighting: 35/75 (0.467); mega-starmie-water: 50/75 (0.667) | last-attempt: upload-failed: RuntimeError('kaggle CLI failed (1): ')"
+    },
+    {
+      "id": "mega-lucario-fighting-searchnet-v1.1",
+      "name": "mega-lucario-fighting-searchnet",
+      "version": "v1.1",
+      "deck": "src/ptcg/decks/candidates/mega-lucario-fighting.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-lucario-fighting.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle3",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": 0.54,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 34,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 47,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.3628510210011004,
+      "matrix_games": 22,
+      "matrix_opponents": 3,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "eval: mega-lucario-fighting: 34/75 (0.453); mega-starmie-water: 47/75 (0.627)"
+    },
+    {
+      "id": "mega-lucario-fighting-searchnet-b500-v0.1",
+      "name": "mega-lucario-fighting-searchnet-b500",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/mega-lucario-fighting.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 500,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-lucario-fighting.json"
+      },
+      "provenance": "deck-matrix:net-tier",
+      "priority": 0.35,
+      "status": "retired",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": 0.5133333333333333,
+      "local_games": 150,
+      "local_breakdown": [
+        {
+          "baseline": "mega-lucario-fighting",
+          "wins": 32,
+          "games": 75
+        },
+        {
+          "baseline": "mega-starmie-water",
+          "wins": 45,
+          "games": 75
+        }
+      ],
+      "matrix_rating": 1.936968097964904,
+      "matrix_games": 22,
+      "matrix_opponents": 3,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": "deck-matrix refill; deck_hash pending eval | eval: mega-lucario-fighting: 32/75 (0.427); mega-starmie-water: 45/75 (0.600)"
+    },
+    {
+      "id": "mega-lucario-fighting-energy-down2-searchnet-v0.1",
+      "name": "mega-lucario-fighting-energy-down2-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-lucario-fighting-energy-down2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-lucario-fighting-energy-down2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 1.0297004261610643,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down1-energy-up2-searchnet-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down1-energy-up2-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down1-energy-up2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-attacker-down1-energy-up2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 0.605719966403739,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down1-attacker-up1-searchnet-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down1-attacker-up1-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down1-attacker-up1.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-attacker-down1-attacker-up1.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "scored",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 1.7835663229115948,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": 597.7,
+      "submitted_at": "2026-07-22T09:45",
+      "last_resubmitted_at": "2026-07-22T09:45",
+      "score_history": [
+        [
+          "2026-07-22T09:45",
+          706.2
+        ],
+        [
+          "2026-07-22T10:00",
+          692.5
+        ],
+        [
+          "2026-07-22T10:15",
+          791.8
+        ],
+        [
+          "2026-07-22T10:30",
+          669.7
+        ],
+        [
+          "2026-07-22T10:45",
+          598.1
+        ],
+        [
+          "2026-07-22T11:00",
+          616.1
+        ],
+        [
+          "2026-07-22T11:15",
+          628.7
+        ],
+        [
+          "2026-07-22T11:30",
+          617.3
+        ],
+        [
+          "2026-07-22T11:45",
+          581.8
+        ],
+        [
+          "2026-07-22T12:00",
+          563.9
+        ],
+        [
+          "2026-07-22T12:15",
+          588.4
+        ],
+        [
+          "2026-07-22T13:00",
+          594.0
+        ],
+        [
+          "2026-07-22T14:00",
+          581.5
+        ],
+        [
+          "2026-07-22T15:15",
+          577.1
+        ],
+        [
+          "2026-07-22T17:45",
+          583.9
+        ],
+        [
+          "2026-07-22T19:15",
+          578.2
+        ],
+        [
+          "2026-07-22T21:30",
+          590.1
+        ],
+        [
+          "2026-07-22T22:15",
+          585.4
+        ],
+        [
+          "2026-07-23T01:00",
+          579.4
+        ],
+        [
+          "2026-07-23T01:15",
+          575.3
+        ],
+        [
+          "2026-07-23T02:45",
+          569.2
+        ],
+        [
+          "2026-07-23T06:15",
+          564.0
+        ],
+        [
+          "2026-07-23T09:15",
+          569.9
+        ],
+        [
+          "2026-07-23T12:00",
+          575.6
+        ],
+        [
+          "2026-07-23T14:00",
+          583.9
+        ],
+        [
+          "2026-07-23T17:15",
+          578.3
+        ],
+        [
+          "2026-07-23T20:15",
+          583.9
+        ],
+        [
+          "2026-07-23T20:45",
+          602.5
+        ],
+        [
+          "2026-07-23T23:00",
+          597.6
+        ],
+        [
+          "2026-07-24T02:15",
+          603.9
+        ],
+        [
+          "2026-07-24T05:30",
+          598.7
+        ],
+        [
+          "2026-07-24T05:45",
+          593.6
+        ],
+        [
+          "2026-07-24T06:45",
+          599.6
+        ],
+        [
+          "2026-07-24T07:30",
+          595.2
+        ],
+        [
+          "2026-07-24T09:15",
+          597.7
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "id": "aggro-lightning-searchnet-v0.1",
+      "name": "aggro-lightning-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/aggro-lightning.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_aggro-lightning.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 0.015176052980726504,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-density20-attacker-down1-searchnet-v0.1",
+      "name": "mega-starmie-water-density20-attacker-down1-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-density20-attacker-down1.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-density20-attacker-down1.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 0.7195841343915444,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-density20-energy-up2-searchnet-v0.1",
+      "name": "mega-starmie-water-density20-energy-up2-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-density20-energy-up2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-density20-energy-up2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 6.090622288776784,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-density20-searchnet-v0.1",
+      "name": "mega-starmie-water-density20-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water-density20.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-density20.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 1.5137228916897871,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-energy-up2-searchnet-v0.1",
+      "name": "mega-starmie-water-energy-up2-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-energy-up2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-energy-up2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "evaluated-below-incumbent",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 1.1405548204911793,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-energy-down2-searchnet-v0.1",
+      "name": "mega-starmie-water-energy-down2-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-energy-down2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-energy-down2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 0.6778884158853302,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "bigbasic-dragon-searchnet-v0.1",
+      "name": "bigbasic-dragon-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/bigbasic-dragon.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_bigbasic-dragon.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 0.23381937464851213,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "disruption-darkness-searchnet-v0.1",
+      "name": "disruption-darkness-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/disruption-darkness.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_disruption-darkness.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 0.027160955086014262,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-lucario-fighting-attacker-down1-searchnet-v0.1",
+      "name": "mega-lucario-fighting-attacker-down1-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-lucario-fighting-attacker-down1.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-lucario-fighting-attacker-down1.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 2.4539863083212112,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-lucario-fighting-energy-up2-searchnet-v0.1",
+      "name": "mega-lucario-fighting-energy-up2-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-lucario-fighting-energy-up2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-lucario-fighting-energy-up2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 5.032243207421095,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-lucario-v2-searchnet-v0.1",
+      "name": "mega-lucario-v2-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/mega-lucario-v2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-lucario-v2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 0.8835120707567174,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-lucario-v3-searchnet-v0.1",
+      "name": "mega-lucario-v3-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/mega-lucario-v3.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-lucario-v3.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 0.7595537462917084,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-mawile-metal-searchnet-v0.1",
+      "name": "mega-mawile-metal-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/mega-mawile-metal.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-mawile-metal.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 0.0926747157445099,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-attacker-down1-searchnet-v0.1",
+      "name": "mega-starmie-water-attacker-down1-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-attacker-down1.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-attacker-down1.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "retired",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 1.183416676170999,
+      "matrix_games": 20,
+      "matrix_opponents": 2,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down1-attacker-down1-searchnet-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down1-attacker-down1-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down1-attacker-down1.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-attacker-down1-attacker-down1.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "evaluated-below-incumbent",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 1.0643543510315638,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down1-energy-down2-searchnet-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down1-energy-down2-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down1-energy-down2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-attacker-down1-energy-down2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "evaluated",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 1.3303048086469453,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down2-searchnet-v0.1",
+      "name": "mega-starmie-water-lean-attacker-down2-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-attacker-down2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "evaluated-below-incumbent",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 1.2426215080177068,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-lean-energy-down2-searchnet-v0.1",
+      "name": "mega-starmie-water-lean-energy-down2-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-energy-down2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-energy-down2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "evaluated",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 1.399936959487713,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-lean-energy-up2-searchnet-v0.1",
+      "name": "mega-starmie-water-lean-energy-up2-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-energy-up2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-energy-up2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "scored",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 1.53453893839179,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": 555.7,
+      "submitted_at": "2026-07-22T09:45",
+      "last_resubmitted_at": null,
+      "score_history": [
+        [
+          "2026-07-22T10:00",
+          703.5
+        ],
+        [
+          "2026-07-22T10:15",
+          640.6
+        ],
+        [
+          "2026-07-22T10:30",
+          571.4
+        ],
+        [
+          "2026-07-22T10:45",
+          565.7
+        ],
+        [
+          "2026-07-22T11:00",
+          562.1
+        ],
+        [
+          "2026-07-22T11:15",
+          577.0
+        ],
+        [
+          "2026-07-22T11:30",
+          567.5
+        ],
+        [
+          "2026-07-22T11:45",
+          584.1
+        ],
+        [
+          "2026-07-22T12:00",
+          592.9
+        ],
+        [
+          "2026-07-22T12:15",
+          581.0
+        ],
+        [
+          "2026-07-22T13:00",
+          573.4
+        ],
+        [
+          "2026-07-22T14:17",
+          577.0
+        ],
+        [
+          "2026-07-22T14:36",
+          586.6
+        ],
+        [
+          "2026-07-22T17:00",
+          594.8
+        ],
+        [
+          "2026-07-22T18:30",
+          605.6
+        ],
+        [
+          "2026-07-22T18:45",
+          611.7
+        ],
+        [
+          "2026-07-22T21:00",
+          606.3
+        ],
+        [
+          "2026-07-22T22:30",
+          599.7
+        ],
+        [
+          "2026-07-23T01:15",
+          606.2
+        ],
+        [
+          "2026-07-23T02:45",
+          600.6
+        ],
+        [
+          "2026-07-23T03:30",
+          607.3
+        ],
+        [
+          "2026-07-23T05:00",
+          601.8
+        ],
+        [
+          "2026-07-23T07:00",
+          592.8
+        ],
+        [
+          "2026-07-23T07:30",
+          585.3
+        ],
+        [
+          "2026-07-23T08:00",
+          592.8
+        ],
+        [
+          "2026-07-23T08:30",
+          587.8
+        ],
+        [
+          "2026-07-23T11:30",
+          584.4
+        ],
+        [
+          "2026-07-23T12:00",
+          579.6
+        ],
+        [
+          "2026-07-23T12:30",
+          575.3
+        ],
+        [
+          "2026-07-23T12:45",
+          579.2
+        ],
+        [
+          "2026-07-23T16:00",
+          574.3
+        ],
+        [
+          "2026-07-23T16:30",
+          572.7
+        ],
+        [
+          "2026-07-23T17:00",
+          578.9
+        ],
+        [
+          "2026-07-23T17:15",
+          583.2
+        ],
+        [
+          "2026-07-23T19:15",
+          579.4
+        ],
+        [
+          "2026-07-23T22:45",
+          574.5
+        ],
+        [
+          "2026-07-23T23:00",
+          570.5
+        ],
+        [
+          "2026-07-24T02:45",
+          574.6
+        ],
+        [
+          "2026-07-24T04:15",
+          571.5
+        ],
+        [
+          "2026-07-24T05:00",
+          567.3
+        ],
+        [
+          "2026-07-24T05:30",
+          566.5
+        ],
+        [
+          "2026-07-24T08:45",
+          562.0
+        ],
+        [
+          "2026-07-24T10:30",
+          556.5
+        ],
+        [
+          "2026-07-24T10:45",
+          561.2
+        ],
+        [
+          "2026-07-24T11:15",
+          555.7
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-turbo-searchnet-v0.1",
+      "name": "mega-starmie-water-turbo-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water-turbo.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-turbo.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "evaluated",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": 1.3393905679147102,
+      "matrix_games": 1130,
+      "matrix_opponents": 23,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-ogerpon-searchnet-v1.1",
+      "name": "mega-starmie-water-ogerpon-searchnet",
+      "version": "v1.1",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water-ogerpon.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-ogerpon.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "queued",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-turbo-searchnet-v0.2",
+      "name": "mega-starmie-water-turbo-searchnet",
+      "version": "v0.2",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water-turbo.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-turbo.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle1",
+      "priority": 0.3,
+      "status": "queued",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-lean-searchnet-v1.1",
+      "name": "mega-starmie-water-lean-searchnet",
+      "version": "v1.1",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water-lean.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "queued",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-lean-attacker-down2-searchnet-v0.2",
+      "name": "mega-starmie-water-lean-attacker-down2-searchnet",
+      "version": "v0.2",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-attacker-down2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-attacker-down2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle1",
+      "priority": 0.3,
+      "status": "queued",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-density20-searchnet-v0.2",
+      "name": "mega-starmie-water-density20-searchnet",
+      "version": "v0.2",
+      "deck": "src/ptcg/decks/candidates/mega-starmie-water-density20.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-density20.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle1",
+      "priority": 0.3,
+      "status": "queued",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-lean-energy-up2-searchnet-v0.2",
+      "name": "mega-starmie-water-lean-energy-up2-searchnet",
+      "version": "v0.2",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-energy-up2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-energy-up2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle1",
+      "priority": 0.3,
+      "status": "queued",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "mega-starmie-water-lean-energy-down2-searchnet-v0.2",
+      "name": "mega-starmie-water-lean-energy-down2-searchnet",
+      "version": "v0.2",
+      "deck": "src/ptcg/decks/candidates/generated/mega-starmie-water-lean-energy-down2.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_mega-starmie-water-lean-energy-down2.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle1",
+      "priority": 0.3,
+      "status": "queued",
+      "novel_axis": false,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    },
+    {
+      "id": "evolved-dk-f31d710953-searchnet-v0.1",
+      "name": "evolved-dk-f31d710953-searchnet",
+      "version": "v0.1",
+      "deck": "src/ptcg/decks/candidates/generated/evolved-dk-f31d710953.csv",
+      "agent_kind": "search-net",
+      "agent_config": {
+        "search_budget_ms": 200,
+        "rollout_depth": 12,
+        "net_weights": "src/ptcg/search/value_net_weights_evolved-dk-f31d710953.json"
+      },
+      "provenance": "daemon:per-deck-net:cycle0",
+      "priority": 0.3,
+      "status": "queued",
+      "novel_axis": true,
+      "is_incumbent": false,
+      "local_wr": null,
+      "local_games": 0,
+      "local_breakdown": null,
+      "matrix_rating": null,
+      "matrix_games": 0,
+      "matrix_opponents": 0,
+      "kaggle_score": null,
+      "submitted_at": null,
+      "last_resubmitted_at": null,
+      "score_history": [],
+      "notes": ""
+    }
+  ]
+}
